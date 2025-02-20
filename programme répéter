@@ -1,0 +1,25 @@
+def programme():  # pour repetre la program .[
+     
+     nbr=int(input("enter le nombre des personne ")) # {pour repetre la programme while.
+     i=0
+     a=[]
+     b=[]
+     c=[]
+     while (i<=nbr):
+        nom=input("enter le nom") 
+        age=input("entre l'age") 
+        email=input("entre votre adress mail")
+        a.append(nom)
+        b.append(age)
+        c.append(email)
+        i=i+1
+     personne={"nom":a,"age":b,"email":c }
+     print(personne)       # pour repetre la programme while.}
+
+     repense=input("conunier!")      
+     if(repense==" oui"):
+        programme()
+     else:
+        print("programme termier")
+programme()             # pour repetre la program .]
+
