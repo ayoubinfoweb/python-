@@ -1,0 +1,45 @@
+etudiant=["rachid"]
+def menu():
+    print(" 1-affichier")
+    print(" 2-ajouter")
+    print(" 3-supprimer")
+    print(" 0-quitter")
+    choix=input("entrer votre choix ")
+    return choix
+menu()
+def afficher ():
+    for el in list:
+        print(el)
+    menu()    
+    
+def ajouter(list)  :            
+      v=input("entrer le nom")
+      list.append(v)
+      print(list)
+def supprimer(list) :  
+     v=input("entrer le nom suprimer")
+     list.remove(v) 
+     print(list)
+def prog():
+    print("1-affichier")
+    print("2-ajouter")
+    print("3-supprimer")
+    print("0-quitter")
+
+    c= input("entrer votre choix")
+    if c=="1":
+      afficher(etudiant) 
+    if c=="2":
+      ajouter(etudiant)
+    if c=="3":
+       supprimer(etudiant)
+    if c=="0":
+       exit()
+    prog()
+prog()
+
+     
+
+
+
+         
